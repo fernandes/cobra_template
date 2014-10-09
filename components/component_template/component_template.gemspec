@@ -7,11 +7,11 @@ require "component_template/version"
 Gem::Specification.new do |s|
   s.name        = "component_template"
   s.version     = ComponentTemplate::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of ComponentTemplate."
-  s.description = "TODO: Description of ComponentTemplate."
+  s.authors     = ["Celso Fernandes"]
+  s.email       = ["fernandes@zertico.com"]
+  s.homepage    = "http://github.com/fernandes/cobra_template"
+  s.summary     = "Summary of ComponentTemplate."
+  s.description = "Description of ComponentTemplate."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
