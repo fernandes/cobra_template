@@ -38,3 +38,5 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# How to add a component on wrapper application?
+# gem 'component_template', path: 'components/component_template'
