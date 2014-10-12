@@ -72,3 +72,11 @@ build/
 
 ## No Cache
 /vendor/cache
+
+## COBRA
+# Ignore stuff created by components you don't need to care about 
+/components/*/vendor/bundle
+/components/*/vendor/cache
+/components/*/.bundle
+/components/*/spec/dummy/log
+/components/*/spec/dummy/db
