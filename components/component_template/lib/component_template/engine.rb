@@ -8,7 +8,7 @@ module ComponentTemplate
         require d.name
       rescue LoadError => le
         # Put exceptions here.
-        raise le if d.name !~ /factory_girl_rails/
+        # raise le if d.name !~ /factory_girl_rails/
       end
     end
     
