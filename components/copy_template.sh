@@ -5,7 +5,7 @@
 # http://confreaks.com/videos/2646-rockymountainruby2013-how-i-architected-my-big-rails-app-for-success
 
 # Must enter a name
-[ -z $1 ] && echo "You must use $0 <new_component_name> <component_template>"
+[ -z $1 ] && echo "You must use $0 <new_component_name> <component_template>" && exit 1
 component_name=$1
 template_name=$2
 
